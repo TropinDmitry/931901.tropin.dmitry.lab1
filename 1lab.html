@@ -1,0 +1,113 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Web lab1</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+    
+    <style>
+        * {
+            color: white;
+        }
+        td{
+            width: 35px;
+            height: 30px;
+            border: solid 1px silver;
+            text-align: center;
+            padding-bottom: 0px;
+        }
+        figure {
+            width: 90px;
+            height: 90px;
+            float: left;
+            margin-right: 18px;
+            margin-bottom: 25px;
+            margin-top: 0px;
+            margin-left: 0px;
+            border: 5px solid white;
+            border-top-left-radius: 15px;
+            border-bottom-right-radius: 25px;
+            border-top-right-radius: 0px;
+            border-bottom-left-radius: 0px;
+        }
+        div {
+            box-sizing: content-box;
+        }
+        span{
+            color: red;
+        }
+        p {
+            margin-bottom: 0.6em;
+            margin-top: 0.5em
+        }
+        li{
+            margin: 0.5em;
+            margin-left: 0px;
+        }
+        #header {
+            background-color: green;
+            padding: 1px;
+            display: block;
+        }
+
+        #content {
+            margin: 0 auto;
+            padding: 25px;
+            width: 447px;
+            background-color: blue;
+        }
+
+        #footer {
+            background-color: green;
+            padding: 1px;
+            display: block;
+        }
+    </style>
+</head>
+<body style="margin: 0px; font-family: Arial">
+    <div id="header">
+        <p align="center" style="font-family: Courier">Hello, Header!</p>
+    </div>
+    <div id="content" style="padding-bottom: 15px">
+        <h1 style="margin-bottom: 10px; margin-top: 0px">Hello, content!</h1>
+        <aside>
+            <figure></figure> Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+        </aside>
+        <p align="center"> 
+            <a href="http://www.csd.tsu.ru/" style="color: red; margin: 0.5em;">www.csd.tsu.ru</a>
+        </p>
+        <h2 style="word-spacing: 0.3em; margin: 0px"><span>Here</span> is the list:</h2>
+        <ul style="list-style-type:disc; margin: 0.5em">
+            <li>Value 1</li>
+            <li class="distance" style="color: aqua; letter-spacing: 0.3em">Value 2</li>
+            <li>Value 3</li>
+        </ul>
+        <div>
+            <table style="float: right; border: solid 1px silver; border-spacing: 3px;">
+                <tr>
+                    <td rowspan="2" style="background-color:green;">1</td>
+                    <td>2</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td colspan="2" style="background-color:red;">7</td>
+                </tr>
+            </table>
+            <h3 style="margin-bottom: 0.5em; margin-top: 0.5em">Here are some visual styles:</h3>
+            <p><i>Italic</i> </p>
+            <p><b>Bold</b> </p>
+            <p><u>Underlined</u> </p>
+            <img style="float:right; margin-top: 0.5em" src="images.png">
+            <p style="margin-top: 1em; margin-bottom: 2px"><s>Line through</s> </p>
+        </div>
+    </div>
+    <div id="footer">
+        <p align="center">Hello, Footer!</p>
+    </div>
+</body>
+</html>
